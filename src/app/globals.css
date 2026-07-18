@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --porcelain: #f8f7f4;
+  --enamel: #ffffff;
+  --ink: #14232b;
+  --slate-soft: #5c6e76;
+  --glacier: #7fb8c9;
+  --glacier-deep: #2e6e80;
+  --gleam: #e4eef1;
+  --gold-hint: #c9a96a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  background-color: var(--porcelain);
+  color: var(--ink);
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+::selection {
+  background: var(--glacier);
+  color: var(--ink);
+}
+
+.eyebrow {
+  @apply font-body text-[11px] font-semibold uppercase tracking-label text-glacier-deep;
+}
+
+/* Smile Line arc draw-in */
+.smile-line path {
+  stroke-dasharray: 260;
+  stroke-dashoffset: 260;
+  animation: smile-draw 1.4s ease-out 0.5s forwards;
+}
+
+@keyframes smile-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .smile-line path {
+    stroke-dashoffset: 0;
+    animation: none;
+  }
+}
+
+/* grayscale map that tints on hover */
+.map-frame iframe {
+  filter: grayscale(1) opacity(0.92);
+  transition: filter 0.5s ease;
+}
+.map-frame:hover iframe {
+  filter: grayscale(0.2) sepia(0.08) hue-rotate(150deg) opacity(1);
+}
