@@ -51,7 +51,7 @@ export default function WhyUs() {
   return (
     <section className="py-24 md:py-32">
       <div className="mx-auto max-w-6xl px-5 md:px-8">
-        <Eyebrow>Why Lumina</Eyebrow>
+        <Eyebrow>Why Nacre</Eyebrow>
         <div className="mt-10 grid gap-6 md:grid-cols-3">
           {stats.map((s, i) => (
             <AnimatedContent

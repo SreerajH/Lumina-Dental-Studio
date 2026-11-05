@@ -31,7 +31,7 @@ export default function Nav() {
     >
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-5 py-3 md:px-8">
         <a href="#top" className="font-display text-xl font-medium tracking-tight text-ink">
-          Lumina Dental
+          Nacre Dental
         </a>
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((l) => (

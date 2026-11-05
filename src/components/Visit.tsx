@@ -12,7 +12,7 @@ export default function Visit() {
           <Reveal className="map-frame overflow-hidden rounded-2xl border border-gleam shadow-card">
             <iframe
               src={clinic.mapsEmbed}
-              title="Lumina Dental Studio on Google Maps"
+              title="Nacre Dental Studio on Google Maps"
               className="h-full min-h-[360px] w-full border-0"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

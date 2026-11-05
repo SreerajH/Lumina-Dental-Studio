@@ -1,8 +1,8 @@
 export const clinic = {
-  name: "Lumina Dental",
-  fullName: "Lumina Dental Studio",
+  name: "Nacre Dental",
+  fullName: "Nacre Dental Studio",
   tagline: "Dentistry that feels nothing like the dentist.",
-  url: "https://lumina-dental.vercel.app",
+  url: "https://nacre-dental.vercel.app",
   phone: "+91 98765 43210",
   phoneHref: "+919876543210",
   whatsapp: "919876543210",
@@ -22,7 +22,7 @@ export const clinic = {
 };
 
 export function waLink(message?: string) {
-  const text = message ?? "Hi, I'd like to book an appointment at Lumina Dental";
+  const text = message ?? "Hi, I'd like to book an appointment at Nacre Dental";
   return `https://wa.me/${clinic.whatsapp}?text=${encodeURIComponent(text)}`;
 }
 

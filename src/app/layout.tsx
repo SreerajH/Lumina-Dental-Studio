@@ -21,11 +21,11 @@ const body = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(clinic.url),
-  title: "Lumina Dental Studio — Indiranagar, Bengaluru",
+  title: "Nacre Dental Studio — Indiranagar, Bengaluru",
   description:
     "Modern, gentle, judgement-free dental care in Indiranagar, Bengaluru. Digital X-rays, painless procedures, transparent pricing. 4.9 rating across 350+ Google reviews. Open 7 days.",
   keywords: [
-    "Lumina Dental Studio",
+    "Nacre Dental Studio",
     "dentist Indiranagar",
     "dental clinic Bengaluru",
     "painless root canal Bengaluru",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     "kids dentist Bengaluru",
   ],
   openGraph: {
-    title: "Lumina Dental Studio — Dentistry that feels nothing like the dentist.",
+    title: "Nacre Dental Studio — Dentistry that feels nothing like the dentist.",
     description:
       "Modern, gentle, judgement-free dental care for the whole family. Digital X-rays, painless procedures, transparent pricing. 4.9 stars, 350+ reviews.",
     url: clinic.url,

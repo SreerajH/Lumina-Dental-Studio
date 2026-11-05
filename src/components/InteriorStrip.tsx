@@ -35,7 +35,7 @@ export default function InteriorStrip() {
             <div className="aspect-[10/7] overflow-hidden">
               <Image
                 src={p.src}
-                alt={`${p.label} at Lumina Dental Studio`}
+                alt={`${p.label} at Nacre Dental Studio`}
                 width={736}
                 height={515}
                 className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.05]"

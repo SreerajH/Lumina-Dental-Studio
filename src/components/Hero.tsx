@@ -111,7 +111,7 @@ export default function Hero() {
               loop
               playsInline
               preload="metadata"
-              aria-label="A look inside Lumina Dental Studio"
+              aria-label="A look inside Nacre Dental Studio"
               className="aspect-[9/16] w-[280px] rounded-[20px] object-cover xl:w-[310px]"
             />
           </motion.div>

@@ -61,7 +61,7 @@ export default function Treatments() {
           {allTreatments.map((t, i) => (
             <motion.a
               key={t.name}
-              href={waLink(`Hi, I'd like to book a consultation for ${t.name} at Lumina Dental`)}
+              href={waLink(`Hi, I'd like to book a consultation for ${t.name} at Nacre Dental`)}
               target="_blank"
               rel="noopener noreferrer"
               initial={{ opacity: 0, y: reduced ? 0 : 30 }}
